@@ -1,0 +1,282 @@
+@media (max-width: 1100px) {
+    header,
+    footer {
+        padding-inline: 30px;
+    }
+    .workspace {
+        padding: 40px 30px;
+    }
+    .section-heading h1 {
+        font-size: 37px;
+    }
+    .entry-layout {
+        gap: 40px;
+    }
+    .detail-layout {
+        grid-template-columns: minmax(0, 1fr) 310px;
+        gap: 25px;
+    }
+    .login-layout {
+        gap: 40px;
+    }
+    .login-layout h1 {
+        font-size: 54px;
+    }
+    .identity {
+        display: none;
+    }
+    .stats > div {
+        padding: 23px;
+    }
+    .guidance h2 {
+        font-size: 34px;
+    }
+    .code-panel {
+        gap: 25px;
+    }
+    .code-panel output {
+        font-size: 28px;
+    }
+}
+@media (max-width: 800px) {
+    .entry-layout,
+    .detail-layout {
+        grid-template-columns: 1fr;
+    }
+    .guidance {
+        padding: 0;
+    }
+    .collection-panel {
+        max-width: 650px;
+        width: 100%;
+    }
+    .photo-panel > img {
+        height: 400px;
+    }
+    .login-layout {
+        grid-template-columns: 1fr;
+        max-width: 650px;
+        margin: 40px auto 60px;
+        gap: 30px;
+    }
+    .process {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+    .process li {
+        display: block;
+    }
+    .process li > span {
+        margin-bottom: 12px;
+    }
+    .process strong {
+        font-size: 12px;
+    }
+    .process small {
+        font-size: 9px;
+    }
+    .login-layout h1 {
+        font-size: 57px;
+    }
+    .filters {
+        flex-wrap: wrap;
+    }
+    .filters label:first-child {
+        flex-basis: 100%;
+    }
+    .code-panel {
+        flex-wrap: wrap;
+    }
+    .code-panel > div {
+        flex-basis: 100%;
+    }
+    .stats {
+        grid-template-columns: 1.3fr 1fr 1fr;
+    }
+    nav {
+        gap: 18px;
+        font-size: 11px;
+    }
+    footer {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 550px) {
+    header {
+        padding: 22px 20px;
+        gap: 15px;
+    }
+    .brand .brand-mark {
+        width: 34px;
+        height: 34px;
+        font-size: 26px;
+    }
+    .brand > span:last-child {
+        font-size: 23px;
+    }
+    .brand > span:last-child > span {
+        font-size: 5px;
+        letter-spacing: 1.6px;
+    }
+    .brand {
+        gap: 9px;
+    }
+    nav {
+        gap: 12px;
+        font-size: 9px;
+    }
+    nav .text-btn {
+        font-size: 9px;
+    }
+    nav > span {
+        display: none;
+    }
+    .workspace {
+        padding: 32px 20px 50px;
+    }
+    .section-heading {
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+    .section-heading h1 {
+        font-size: 33px;
+    }
+    .section-heading p {
+        font-size: 12px;
+    }
+    .section-heading > .btn {
+        font-size: 11px;
+    }
+    .eyebrow {
+        font-size: 8px;
+        letter-spacing: 1.5px;
+    }
+    .stats {
+        grid-template-columns: 1fr 1fr;
+        margin: 25px 0;
+    }
+    .stats .featured {
+        grid-column: span 2;
+        border-right: 0;
+    }
+    .stats > div {
+        padding: 22px;
+    }
+    .stats strong {
+        font-size: 35px;
+    }
+    .featured strong {
+        font-size: 43px;
+    }
+    .stats small {
+        font-size: 9px;
+    }
+    .filters {
+        gap: 12px;
+        margin: 25px 0;
+    }
+    .filters label {
+        font-size: 11px;
+        min-width: 120px;
+    }
+    .filters .btn {
+        width: 100%;
+    }
+    .panel {
+        padding: 24px 20px;
+    }
+    .panel h2 {
+        font-size: 25px;
+    }
+    .form-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .form-grid label {
+        margin: 12px 0;
+    }
+    .upload {
+        padding: 18px;
+    }
+    .guidance h2 {
+        font-size: 34px;
+    }
+    .guidance li {
+        font-size: 12px;
+    }
+    .photo-panel > img {
+        height: 310px;
+    }
+    .photo-meta {
+        display: block;
+    }
+    .photo-meta small {
+        margin-top: 5px;
+    }
+    .tracking-number {
+        font-size: 30px !important;
+    }
+    .code-panel {
+        padding: 22px 20px;
+        gap: 18px;
+    }
+    .code-panel output {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+    .code-panel p {
+        font-size: 10px;
+    }
+    .code-panel > .btn {
+        font-size: 11px;
+    }
+    .collection-panel h2 {
+        font-size: 27px;
+    }
+    .login-layout {
+        padding: 0 20px;
+        margin-top: 35px;
+        gap: 25px;
+    }
+    .login-layout h1 {
+        font-size: 49px;
+    }
+    .login-layout > div > p {
+        font-size: 13px;
+    }
+    .process {
+        gap: 13px;
+    }
+    .process strong {
+        font-size: 11px;
+    }
+    .login-panel {
+        padding: 27px 22px;
+    }
+    .login-panel h2 {
+        font-size: 28px;
+    }
+    .report-stats > div {
+        padding: 22px;
+    }
+    .report-stats strong {
+        font-size: 33px;
+    }
+    footer {
+        padding: 26px 20px;
+        gap: 15px;
+    }
+    footer span {
+        font-size: 10px;
+    }
+    footer small {
+        width: 100%;
+        font-size: 8px;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+    }
+}
