@@ -31,4 +31,24 @@ class Package extends Model
     {
         return $this->belongsTo(User::class, 'created_by');
     }
+
+    public function isCollected(): bool
+    {
+        return $this->status === 'collected';
+    }
+
+    public function isReceived(): bool
+    {
+        return $this->status === 'received';
+    }
+
+    public function scopeReceived($query)
+    {
+        return $query->where('status', 'received');
+    }
+
+    public function scopeCollected($query)
+    {
+        return $query->where('status', 'collected');
+    }
 }
